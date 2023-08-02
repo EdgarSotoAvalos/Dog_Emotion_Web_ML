@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+input[type="file"] {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+@media only screen and (max-width: 600px) {
+    form {
+        max-width: 90%;
+    }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Signika:200,300,200);
+
+h1 {
+    font-size:1.5em;
+    font:bold 3.5vw/1.6 'Signika', sans-serif;
+    user-select:none;
+   }
+   
+   h1 span { display:inline-block; animation:float .2s ease-in-out infinite; }
+    @keyframes float {
+     0%,100%{ transform:none; }
+     33%{ transform:translateY(-1px) rotate(-2deg); }
+     66%{ transform:translateY(1px) rotate(2deg); }
+    }
+    span:nth-child(4n) { color:hsl(50, 75%, 55%); text-shadow:1px 1px hsl(50, 75%, 45%), 2px 2px hsl(50, 45%, 45%), 3px 3px hsl(50, 45%, 45%), 4px 4px hsl(50, 75%, 45%); }
+    span:nth-child(4n-1) { color:hsl(135, 35%, 55%); text-shadow:1px 1px hsl(135, 35%, 45%), 2px 2px hsl(135, 35%, 45%), 3px 3px hsl(135, 35%, 45%), 4px 4px hsl(135, 35%, 45%); }
+    span:nth-child(4n-2) { color:hsl(155, 35%, 60%); text-shadow:1px 1px hsl(155, 25%, 50%), 2px 2px hsl(155, 25%, 50%), 3px 3px hsl(155, 25%, 50%), 4px 4px hsl(140, 25%, 50%); }
+    span:nth-child(4n-3) { color:hsl(30, 65%, 60%); text-shadow:1px 1px hsl(30, 45%, 50%), 2px 2px hsl(30, 45%, 50%), 3px 3px hsl(30, 45%, 50%), 4px 4px hsl(30, 45%, 50%); }
+    
+    h1 span:nth-child(2){ animation-delay:.05s; }
+    h1 span:nth-child(3){ animation-delay:.1s; }
+    h1 span:nth-child(4){ animation-delay:.15s; }
+    h1 span:nth-child(5){ animation-delay:.2s; }
+    h1 span:nth-child(6){ animation-delay:.25s; }
+    h1 span:nth-child(7){ animation-delay:.3s; }
+    h1 span:nth-child(8){ animation-delay:.35s; }
+    h1 span:nth-child(9){ animation-delay:.4s; }
+    h1 span:nth-child(10){ animation-delay:.45s; }
+    h1 span:nth-child(11){ animation-delay:.5s; }
+    h1 span:nth-child(12){ animation-delay:.55s; }
+    h1 span:nth-child(13){ animation-delay:.6s; }
+    h1 span:nth-child(14){ animation-delay:.65s; }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+  
+      h3 {
+        color: #c09829;
+        font-size: 28px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+  
+      hr {
+        border: none;
+        border-top: 1px solid #ccc;
+        margin: 30px 0;
+      }
+  
+      p {
+        font-size: 18px;
+        margin-bottom: 15px;
+        text-align: justify;
+      }
+      .file-input {
+        display: block;
+        margin-bottom: 15px;
+      }
+  
+      .file-input label {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+  
+      .file-input input[type="file"] {
+        display: none;
+      }
+  
+      .submit-btn {
+        display: inline-block;
+        padding: 12px 24px;
+        font-size: 18px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+  
+      .submit-btn:hover {
+        background-color: #0056b3;
+      }
